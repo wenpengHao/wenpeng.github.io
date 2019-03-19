@@ -5,17 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title> Tags - </title>
+  <title> Hugo - </title>
   <meta name="description" content="" />
-  <meta property="og:title" content="Tags" />
-  <meta name="twitter:title" content="Tags" />
+  <meta property="og:title" content="Hugo" />
+  <meta name="twitter:title" content="Hugo" />
   <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="https://blog.haowenpeng.com/tags/" />
+  <meta property="og:url" content="https://blog.haowenpeng.com/categories/hugo/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="wenpeng" />
 
   <meta name="generator" content="Hugo 0.52" />
-  <link rel="canonical" href="https://blog.haowenpeng.com/tags/" />
+  <link rel="canonical" href="https://blog.haowenpeng.com/categories/hugo/" />
   <link rel="alternate" href="https://blog.haowenpeng.com/index.xml" type="application/rss+xml" title="wenpeng">
   <script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/jquery-1.12.4.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
@@ -121,26 +121,14 @@
 
 
     
-  
-  
-  
-
-
-
-
-  
-
   <header class="header-section ">
-    
     <div class="intro-header no-img">
-      
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-md-offset-0">
-            <div class="tags-heading">
-                <h1 align="center">Tags</h1>
-                
-                
+            <div class="page-heading">
+              <h1>#Hugo</h1>
+              <hr class="small">
             </div>
           </div>
         </div>
@@ -148,21 +136,108 @@
     </div>
   </header>
 
-
     
-  
   <div class="container" role="main">
-    <article class="post-preview">
-      <div class="list-group col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
-      
-      <a href="https://blog.haowenpeng.com/tags/blog/" class="list-group-item">
-          blog<span class="badge">1</span></a>
-      
-      <a href="https://blog.haowenpeng.com/tags/hugo/" class="list-group-item">
-          hugo<span class="badge">1</span></a>
-      
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <div class="posts-list">
+          
+            <article class="post-preview">
+              <a href="https://blog.haowenpeng.com/posts/my-first-post/">
+                <h2 class="post-title">如何使用hugo搭建个人博客</h2>
+
+                
+                  <h3 class="post-subtitle">
+                    如何使用hugo搭建个人博客
+                  </h3>
+                
+              </a>
+
+              <p class="post-meta">
+                Posted on December 1, 2018
+              </p>
+              <div class="post-entry">
+                
+                  
+
+<h5 id="1-mac-下安装hugo">1. mac 下安装hugo</h5>
+
+<pre><code class="language-bash">#安装命令
+brew install hugo
+#查看版本
+brew version
+Hugo Static Site Generator v0.52 darwin/amd64 BuildDate: 2018-11-28T14:06:34Z
+
+</code></pre>
+
+<ul>
+<li>hugo documentation :  <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></li>
+<li>hugo github:  <a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a><br /></li>
+</ul>
+
+<h5 id="2-创建博客">2. 创建博客</h5>
+
+<pre><code class="language-bash">hugo new site blog.demo.com
+
+## 
+hugo new posts/new.md
+
+</code></pre>
+
+<h5 id="3-下载主题">3. 下载主题</h5>
+
+<pre><code>
+</code></pre>
+
+<h5 id="运行博客">运行博客</h5>
+
+<pre><code class="language-bash">#开发状态下
+hugo server --theme=beautifulhugo  --buildDrafts  -d dev
+
+</code></pre>
+
+<h5 id="部署博客到个人网站">部署博客到个人网站</h5>
+
+<pre><code>#编译
+
+
+</code></pre>
+
+<h5 id="注意事项">注意事项</h5>
+
+<pre><code>1. 去掉文章的草稿编译状态，默认 draft:false 
+draft:false -&gt; dragt:true
+2. 记得去看官方文档
+</code></pre>
+
+<p>​</p>
+
+                
+              </div>
+
+              
+                <span class="post-meta">
+                  
+                    #<a href="https://blog.haowenpeng.com/tags/hugo/">hugo</a>&nbsp;
+                  
+                    #<a href="https://blog.haowenpeng.com/tags/blog/">blog</a>&nbsp;
+                  
+                </span>
+              
+
+            </article>
+          
+        </div>
+        
       </div>
-    </article>
+    <div align="center" class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+
+        
+        
+      </div>
+    </div>
   </div>
 
     <footer>

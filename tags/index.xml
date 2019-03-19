@@ -6,35 +6,26 @@
     <description>Recent content in Tags on wenpeng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn-zh</language>
-    <lastBuildDate>Thu, 01 Jun 2017 20:18:57 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 01 Dec 2018 20:18:57 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.haowenpeng.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Istio</title>
-      <link>https://blog.haowenpeng.com/tags/istio/</link>
-      <pubDate>Thu, 01 Jun 2017 20:18:57 +0800</pubDate>
+      <title>Blog</title>
+      <link>https://blog.haowenpeng.com/tags/blog/</link>
+      <pubDate>Sat, 01 Dec 2018 20:18:57 +0800</pubDate>
       
-      <guid>https://blog.haowenpeng.com/tags/istio/</guid>
+      <guid>https://blog.haowenpeng.com/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Kubernetes</title>
-      <link>https://blog.haowenpeng.com/tags/kubernetes/</link>
-      <pubDate>Thu, 01 Jun 2017 20:18:57 +0800</pubDate>
+      <title>Hugo</title>
+      <link>https://blog.haowenpeng.com/tags/hugo/</link>
+      <pubDate>Sat, 01 Dec 2018 20:18:57 +0800</pubDate>
       
-      <guid>https://blog.haowenpeng.com/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Service Mesh</title>
-      <link>https://blog.haowenpeng.com/tags/service-mesh/</link>
-      <pubDate>Thu, 01 Jun 2017 20:18:57 +0800</pubDate>
-      
-      <guid>https://blog.haowenpeng.com/tags/service-mesh/</guid>
+      <guid>https://blog.haowenpeng.com/tags/hugo/</guid>
       <description></description>
     </item>
     

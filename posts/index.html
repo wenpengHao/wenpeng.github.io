@@ -144,33 +144,84 @@
         <div class="posts-list">
           
             <article class="post-preview">
-              <a href="https://blog.haowenpeng.com/posts/test/">
-                <h2 class="post-title">微服务管理框架service mesh——istio安装笔记</h2>
+              <a href="https://blog.haowenpeng.com/posts/my-first-post/">
+                <h2 class="post-title">如何使用hugo搭建个人博客</h2>
 
                 
                   <h3 class="post-subtitle">
-                    手把手教你安装Istio service mesh
+                    如何使用hugo搭建个人博客
                   </h3>
                 
               </a>
 
               <p class="post-meta">
-                Posted on June 1, 2017
+                Posted on December 1, 2018
               </p>
               <div class="post-entry">
                 
                   
+
+<h5 id="1-mac-下安装hugo">1. mac 下安装hugo</h5>
+
+<pre><code class="language-bash">#安装命令
+brew install hugo
+#查看版本
+brew version
+Hugo Static Site Generator v0.52 darwin/amd64 BuildDate: 2018-11-28T14:06:34Z
+
+</code></pre>
+
+<ul>
+<li>hugo documentation :  <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></li>
+<li>hugo github:  <a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a><br /></li>
+</ul>
+
+<h5 id="2-创建博客">2. 创建博客</h5>
+
+<pre><code class="language-bash">hugo new site blog.demo.com
+
+## 
+hugo new posts/new.md
+
+</code></pre>
+
+<h5 id="3-下载主题">3. 下载主题</h5>
+
+<pre><code>
+</code></pre>
+
+<h5 id="运行博客">运行博客</h5>
+
+<pre><code class="language-bash">#开发状态下
+hugo server --theme=beautifulhugo  --buildDrafts  -d dev
+
+</code></pre>
+
+<h5 id="部署博客到个人网站">部署博客到个人网站</h5>
+
+<pre><code>#编译
+
+
+</code></pre>
+
+<h5 id="注意事项">注意事项</h5>
+
+<pre><code>1. 去掉文章的草稿编译状态，默认 draft:false 
+draft:false -&gt; dragt:true
+2. 记得去看官方文档
+</code></pre>
+
+<p>​</p>
+
                 
               </div>
 
               
                 <span class="post-meta">
                   
-                    #<a href="https://blog.haowenpeng.com/tags/kubernetes/">kubernetes</a>&nbsp;
+                    #<a href="https://blog.haowenpeng.com/tags/hugo/">hugo</a>&nbsp;
                   
-                    #<a href="https://blog.haowenpeng.com/tags/istio/">istio</a>&nbsp;
-                  
-                    #<a href="https://blog.haowenpeng.com/tags/service-mesh/">service-mesh</a>&nbsp;
+                    #<a href="https://blog.haowenpeng.com/tags/blog/">blog</a>&nbsp;
                   
                 </span>
               

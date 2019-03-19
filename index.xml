@@ -6,18 +6,19 @@
     <description>Recent content on wenpeng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn-zh</language>
-    <lastBuildDate>Thu, 01 Jun 2017 20:18:57 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 01 Dec 2018 20:18:57 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.haowenpeng.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>微服务管理框架service mesh——istio安装笔记</title>
-      <link>https://blog.haowenpeng.com/posts/test/</link>
-      <pubDate>Thu, 01 Jun 2017 20:18:57 +0800</pubDate>
+      <title>如何使用hugo搭建个人博客</title>
+      <link>https://blog.haowenpeng.com/posts/my-first-post/</link>
+      <pubDate>Sat, 01 Dec 2018 20:18:57 +0800</pubDate>
       
-      <guid>https://blog.haowenpeng.com/posts/test/</guid>
-      <description></description>
+      <guid>https://blog.haowenpeng.com/posts/my-first-post/</guid>
+      <description>1. mac 下安装hugo #安装命令 brew install hugo #查看版本 brew version Hugo Static Site Generator v0.52 darwin/amd64 BuildDate: 2018-11-28T14:06:34Z   hugo documentation : https://gohugo.io/getting-started/quick-start/ hugo github: https://github.com/gohugoio/hugo/releases
+  2. 创建博客 hugo new site blog.demo.com ## hugo new posts/new.md  3. 下载主题   运行博客 #开发状态下 hugo server --theme=beautifulhugo --buildDrafts -d dev  部署博客到个人网站 #编译  注意事项 1. 去掉文章的草稿编译状态，默认 draft:false draft:false -&amp;gt; dragt:true 2. 记得去看官方文档  ​</description>
     </item>
     
   </channel>
