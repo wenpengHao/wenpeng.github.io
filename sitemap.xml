@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://blog.haowenpeng.com/posts/test/</loc>
+    <lastmod>2017-06-01T20:18:57+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.haowenpeng.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haowenpeng.com/categories/cloud-native/</loc>
+    <lastmod>2017-06-01T20:18:57+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haowenpeng.com/tags/istio/</loc>
+    <lastmod>2017-06-01T20:18:57+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haowenpeng.com/tags/kubernetes/</loc>
+    <lastmod>2017-06-01T20:18:57+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haowenpeng.com/posts/</loc>
+    <lastmod>2017-06-01T20:18:57+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haowenpeng.com/tags/service-mesh/</loc>
+    <lastmod>2017-06-01T20:18:57+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haowenpeng.com/tags/</loc>
+    <lastmod>2017-06-01T20:18:57+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haowenpeng.com/</loc>
+    <lastmod>2017-06-01T20:18:57+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on wenpeng</title>
+    <link>https://blog.haowenpeng.com/categories/</link>
+    <description>Recent content in Categories on wenpeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn-zh</language>
+    
+	<atom:link href="https://blog.haowenpeng.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cloud Native</title>
+      <link>https://blog.haowenpeng.com/categories/cloud-native/</link>
+      <pubDate>Thu, 01 Jun 2017 20:18:57 +0800</pubDate>
+      
+      <guid>https://blog.haowenpeng.com/categories/cloud-native/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
